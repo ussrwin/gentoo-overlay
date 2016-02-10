@@ -12,7 +12,7 @@ ATTACH_ID="91"
 HOMEPAGE="http://poezio.eu/"
 SRC_URI="http://dev.louiz.org/attachments/download/${ATTACH_ID}/${P}.tar.xz"
 
-LICENSE="GPL-3"
+LICENSE="ZLIB"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="otr"
