@@ -18,8 +18,11 @@ KEYWORDS="~amd64"
 IUSE=""
 
 #dnspython dep is optional and skipped (requires privately patched, python3 version)
-DEPEND=">=dev-python/sleekxmpp-1.0_beta5"
-RDEPEND="${DEPEND}"
+RDEPEND="=dev-python/slixmpp-9999[${PYTHON_USEDEP}]
+	${PYTHON_DEPS}
+	otr? ( dev-python/pycrypto[${PYTHON_USEDEP}]
+	dev-python/potr[${PYTHON_USEDEP}] )"
+DEPEND="${RDEPEND}"
 
 src_install()
 {
