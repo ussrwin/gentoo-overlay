@@ -15,7 +15,7 @@ SRC_URI="http://dev.louiz.org/attachments/download/${ATTACH_ID}/${P}.tar.xz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="otr"
 
 #dnspython dep is optional and skipped (requires privately patched, python3 version)
 RDEPEND="=dev-python/slixmpp-9999[${PYTHON_USEDEP}]
