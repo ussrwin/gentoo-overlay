@@ -1,4 +1,5 @@
 # gentoo-overlay
 My Gentoo overlay
 
-STATUS: EXPERIMENTAL
+Quality: experimental
+Status: unofficial
