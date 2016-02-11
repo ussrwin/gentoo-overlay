@@ -18,16 +18,16 @@ To add it to the list of layman, open **/etc/layman/layman.cfg** and immediately
 
         overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
 
-add::
+add:
 
         https://raw.githubusercontent.com/KronoZed/gentoo-overlay/master/repositories.xml
 
-must happen::
+must happen:
 
         overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
                     https://raw.githubusercontent.com/KronoZed/gentoo-overlay/master/repositories.xml
 
-then follow::
+then follow:
 
         layman -L
         layman -a kronoz
