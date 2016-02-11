@@ -3,7 +3,7 @@ My Gentoo overlay
 
 Quality: experimental || Status: unofficial
 
-Setting
+Installing
 ---------
 Option 1:
 
