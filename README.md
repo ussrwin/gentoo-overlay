@@ -15,7 +15,7 @@ Follow:
 
 Option 2:
 
-To add it to the list of layman, open **/etc/layman/layman.cfg** and immediately after the line::
+To add it to the list of layman, open **/etc/layman/layman.cfg** and immediately after the line:
 
         overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
 
