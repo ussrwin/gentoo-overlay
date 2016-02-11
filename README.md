@@ -31,3 +31,10 @@ then follow:
 
         layman -L
         layman -a kronoz
+
+Packages
+---------
+* dev-python/aiodns (1.0.1)
+* dev-python/pycares (1.0.0)
+* dev-python/slixmpp (9999)
+* net-im/poezio (9999)
