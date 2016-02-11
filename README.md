@@ -1,5 +1,7 @@
-My Gentoo overlay || Quality: experimental || Status: unofficial
+My Gentoo overlay
 ==================
+
+# Quality: experimental || Status: unofficial
 
 Setting
 ---------
