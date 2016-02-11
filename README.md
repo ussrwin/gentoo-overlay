@@ -1,7 +1,8 @@
 My Gentoo overlay
 ==================
 
-Quality: experimental || Status: unofficial
+Quality: experimental
+Status: unofficial
 
 Installing
 ---------
