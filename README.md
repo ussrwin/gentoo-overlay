@@ -7,7 +7,7 @@ Setting
 ---------
 Option 1:
 
-Follow::
+Follow:
 
         layman -f -o https://raw.githubusercontent.com/KronoZed/gentoo-overlay/master/repositories.xml -a kronoz
 
