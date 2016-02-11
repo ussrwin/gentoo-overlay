@@ -39,4 +39,5 @@ Packages
 * dev-python/pycares (1.0.0)
 * dev-python/slixmpp (9999)
 * games-util/urtconnector (9999)
+* games-util/urtdsc (9999)
 * net-im/poezio (9999)
