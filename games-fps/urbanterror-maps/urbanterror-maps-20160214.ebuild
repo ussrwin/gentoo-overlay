@@ -16,7 +16,6 @@ https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_aztek_b2.
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_beijing_b3.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_cambridge_b1.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_cambridge_fixed.pk3
-https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_commune.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_commune_fixed.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_dust2_v2.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_dust2_v3b.pk3
