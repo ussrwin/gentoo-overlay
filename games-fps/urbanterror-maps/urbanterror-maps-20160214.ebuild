@@ -12,7 +12,7 @@ HOMEPAGE="https://github.com/KronoZed/urbanterror-maps"
 #https://github.com/KronoZed/urbanterror-maps
 SRC_URI="https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut42_skeetshoot_2013.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_aztec_b3.pk3
-https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_aztec_b2.pk3
+https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_aztek_b2.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_beijing_b3.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_cambridge_b1.pk3
 https://raw.githubusercontent.com/KronoZed/urbanterror-maps/master/ut4_cambridge_fixed.pk3
