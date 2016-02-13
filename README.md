@@ -43,6 +43,7 @@ Packages (stable)
 
 Packages (testing)
 ---------
+* games-fps/urbanterror-maps (20160214)
 * games-util/urtdsc (9999)
 
 Packages (not ready)
