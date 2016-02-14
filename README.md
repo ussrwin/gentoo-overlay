@@ -38,12 +38,12 @@ Packages (stable)
 * dev-python/aiodns (1.0.1)
 * dev-python/pycares (1.0.0)
 * dev-python/slixmpp (9999)
+* games-fps/urbanterror-maps (20160214)
 * games-util/urtconnector (9999)
 * net-im/poezio (9999)
 
 Packages (testing)
 ---------
-* games-fps/urbanterror-maps (20160214)
 * games-util/urtdsc (9999)
 
 Packages (not ready)
