@@ -35,6 +35,7 @@ then follow:
 
 Packages (stable)
 ---------
+* app-antivirus/clamtk (5.20) - A frontend for ClamAV using Gtk2-perl
 * dev-python/aiodns (1.0.1) - Simple DNS resolver for asyncio
 * dev-python/pycares (1.0.0) - Python interface for c-ares
 * dev-python/slixmpp (9999) - Python library for XMPP (branched from sleekxmpp)
