@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python{2_7,3_3,3_4} )
 
 inherit eutils distutils-r1
 
-DESCRIPTION="Simple DNS resolver for asyncio"
+DESCRIPTION="Python interface for c-ares"
 HOMEPAGE="https://github.com/saghul/pycares/"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
