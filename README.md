@@ -36,6 +36,7 @@ then follow:
 Packages (stable)
 ---------
 * app-antivirus/clamtk (5.20) - A frontend for ClamAV using Gtk2-perl
+* app-editors/atom-bin (1.5.4) - A hackable text editor for the 21st Century. - Binary package
 * app-office/litetran (9999) - Very simple GUI for text translation (like google translate)
 * dev-python/aiodns (1.0.1) - Simple DNS resolver for asyncio
 * dev-python/pycares (1.0.0) - Python interface for c-ares
