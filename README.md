@@ -35,12 +35,13 @@ then follow:
 
 Packages (stable)
 ---------
-* dev-python/aiodns (1.0.1)
-* dev-python/pycares (1.0.0)
-* dev-python/slixmpp (9999)
-* games-fps/urbanterror-maps (20160214)
-* games-util/urtconnector (9999)
-* net-im/poezio (9999)
+* dev-python/aiodns (1.0.1) - Simple DNS resolver for asyncio
+* dev-python/pycares (1.0.0) - Python interface for c-ares
+* dev-python/slixmpp (9999) - Python library for XMPP (branched from sleekxmpp)
+* games-fps/urbanterror-maps (20160214) - various maps for urban terror 4
+* games-util/urtconnector (9999) - Advanced UrbanTerror launcher program
+* net-im/poezio (9999) - Console XMPP client that looks like most famous IRC clients
+* x11-misc/twmn (9999) - A notification system for tiling window managers
 
 Packages (testing)
 ---------
