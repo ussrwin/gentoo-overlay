@@ -49,6 +49,3 @@ Packages (testing)
 ---------
 * games-util/urtdsc (9999)
 
-Packages (not ready)
----------
-
