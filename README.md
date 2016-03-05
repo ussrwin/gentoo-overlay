@@ -49,6 +49,7 @@ Packages (stable)
 * net-misc/mps-youtube (0.2.6) - CLI Application to search, stream and download youtube video
 * net-p2p/retroshare (0.6.9999) - P2P private sharing application
 * x11-misc/twmn (9999) - A notification system for tiling window managers
+* x11-plugins/pidgin-window_merge (9999) - pidgin plugin that merges a conversation window with the Buddy List window
 
 Packages (testing)
 ---------
