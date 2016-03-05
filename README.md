@@ -46,6 +46,7 @@ Packages (stable)
 * games-fps/urbanterror-maps (20160214) - various maps for urban terror 4
 * games-util/urtconnector (9999) - Advanced UrbanTerror launcher program
 * net-im/poezio (9999) - Console XMPP client that looks like most famous IRC clients
+* net-im/profanity (9999) - Ncurses based jabber client inspired by irssi
 * net-misc/mps-youtube (0.2.6) - CLI Application to search, stream and download youtube video
 * net-p2p/retroshare (0.6.9999) - P2P private sharing application
 * x11-misc/twmn (9999) - A notification system for tiling window managers
