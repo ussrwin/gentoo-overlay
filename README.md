@@ -37,7 +37,7 @@ Packages (stable)
 ---------
 * app-antivirus/clamtk (5.20) - A frontend for ClamAV using Gtk2-perl
 * app-backup/insync-bin (1.3.6) - Advanced cross-platform Google Drive client
-* app-editors/atom-bin (1.5.4) - A hackable text editor for the 21st Century. - Binary package
+* app-editors/atom-bin (1.5.4 - 1.6.0 - 1.6.1) - A hackable text editor for the 21st Century. - Binary package
 * app-office/litetran (9999) - Very simple GUI for text translation (like google translate)
 * dev-libs/libmesode (9999) - Fork of libstrophe for use with Profanity XMPP Client
 * dev-python/aiodns (1.0.1) - Simple DNS resolver for asyncio
