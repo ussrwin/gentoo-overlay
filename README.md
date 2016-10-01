@@ -1,4 +1,4 @@
-My Gentoo overlay
+Gentoo overlay
 ==================
 Quality: experimental
 
@@ -10,7 +10,7 @@ Option 1:
 
 Follow:
 
-        layman -f -o https://raw.githubusercontent.com/KronoZed/gentoo-overlay/master/repositories.xml -a kronoz
+        layman -f -o https://raw.githubusercontent.com/ussrwin/gentoo-overlay/master/repositories.xml -a ussr
 
 
 Option 2:
@@ -21,17 +21,17 @@ To add it to the list of layman, open **/etc/layman/layman.cfg** and immediately
 
 add:
 
-        https://raw.githubusercontent.com/KronoZed/gentoo-overlay/master/repositories.xml
+        https://raw.githubusercontent.com/ussrwin/gentoo-overlay/master/repositories.xml
 
 must happen:
 
         overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
-                    https://raw.githubusercontent.com/KronoZed/gentoo-overlay/master/repositories.xml
+                    https://raw.githubusercontent.com/ussrwin/gentoo-overlay/master/repositories.xml
 
 then follow:
 
         layman -L
-        layman -a kronoz
+        layman -a ussr
 
 Packages (stable)
 ---------
