@@ -2,12 +2,12 @@
  
 <repositories version="1.0">
 	<repo priority="50" quality="experimental" status="unofficial">
-		<name>kronoz</name>
-		<description>KronoZ's Gentoo overlay</description>
-		<homepage>https://github.com/KronoZed/gentoo-overlay</homepage>
+		<name>ussr</name>
+		<description>USSR's Gentoo overlay</description>
+		<homepage>https://github.com/ussrwin/gentoo-overlay</homepage>
 		<owner>
 			<email>root@kronoz.guru</email>
 		</owner>
-		<source type="git">https://github.com/KronoZed/gentoo-overlay.git</source>
+		<source type="git">https://github.com/ussrwin/gentoo-overlay.git</source>
 	</repo>
 </repositories>
