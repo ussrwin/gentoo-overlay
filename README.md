@@ -44,6 +44,7 @@ Packages (stable)
 * dev-python/pafy (0.5.0 / 0.5.2) - Python library to download YouTube content and retrieve metadata
 * dev-python/pycares (1.0.0 / 2.1.0) - Python interface for c-ares
 * dev-python/slixmpp (9999) - Python library for XMPP (branched from sleekxmpp)
+* games-fps/urbanterror (4.2.023) - Hollywood tactical shooter based on the ioquake3 engine
 * games-fps/urbanterror-maps (20160214) - various maps for urban terror 4
 * games-util/urtconnector (9999) - Advanced UrbanTerror launcher program
 * net-im/poezio (9999) - Console XMPP client that looks like most famous IRC clients
