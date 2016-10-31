@@ -101,7 +101,7 @@ IUSE_CACHE_ADAPTER="redis memcached"
 IUSE_DATABASE_ADAPTER="mysql postgres +sqlite tidb"
 IUSE="$IUSE_DATABASE_ADAPTER $IUSE_CACHE_ADAPTER pam +ssl"
 
-REQUIRED_USE="|| ( sqlite tidb mysql postgres )"
+#REQUIRED_USE="|| ( sqlite tidb mysql postgres )"
 
 DEPEND=">=dev-go/go-bindata-3.0.7"
 
@@ -112,7 +112,7 @@ RDEPEND="${DEPEND}
 	ssl? ( net-misc/openssh )
 	mysql? ( virtual/mysql )
 	postgres? ( dev-db/postgresql[pam?,ssl?] )
-  sqlite? ( dev-db/sqlite:3 )
+        sqlite? ( dev-db/sqlite:3 )
 	redis? ( dev-db/redis )
 	tidb? ( dev-db/tidb )
 	memcached? ( net-misc/memcached )"
