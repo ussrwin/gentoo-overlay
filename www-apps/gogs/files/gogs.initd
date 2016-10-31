@@ -1,0 +1,33 @@
+#!/sbin/openrc-run
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+runas=${runas:-gogs}
+pidfile=${pidfile:-/var/run/gogs.pid}
+work_dir=${work_dir:-/var/lib/gogs}
+custom_dir=${custom_dir:-${work_dir}/custom}
+
+depend() {
+	use net
+	after dns
+}
+
+start() {
+	ebegin "Starting Gogs: Go Git Service"
+	checkpath -d -m 0755 -o ${runas}:${runas} /var/lib/${runas}
+	start-stop-daemon --background --start --quiet \
+		--pidfile ${pidfile} --make-pidfile \
+		--user ${runas} --chdir ${work_dir} \
+		--exec env GOGS_WORK_DIR=${work_dir} \
+		GOGS_CUSTOM=${custom_dir} /usr/bin/gogs \
+		-- web
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping Gogs: Go Git Service"
+	start-stop-daemon --stop --quiet --exec /usr/bin/gogs \
+		--pidfile ${pidfile} --name ${runas}
+	eend $?
+}
