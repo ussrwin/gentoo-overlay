@@ -103,18 +103,18 @@ IUSE="$IUSE_DATABASE_ADAPTER $IUSE_CACHE_ADAPTER pam +ssl"
 
 REQUIRED_USE="|| ( sqlite tidb mysql postgres )"
 
-DEPEND=">=dev-go/go-bindata-3.0.7
-	sqlite? ( dev-db/sqlite:3 )
-	redis? ( dev-db/redis )
-	tidb? ( dev-db/tidb )
-	memcached? ( net-misc/memcached )"
+DEPEND=">=dev-go/go-bindata-3.0.7"
 RDEPEND="${DEPEND}
 	app-shells/bash
 	dev-vcs/git[curl,threads]
 	pam? ( virtual/pam )
 	ssl? ( net-misc/openssh )
 	mysql? ( virtual/mysql )
-	postgres? ( dev-db/postgresql[pam?,ssl?] )"
+	postgres? ( dev-db/postgresql[pam?,ssl?] )
+	sqlite? ( dev-db/sqlite:3 )
+	redis? ( dev-db/redis )
+	tidb? ( dev-db/tidb )
+	memcached? ( net-misc/memcached )"
 
 USER_NAME="gogs"
 USER_DIR="/var/lib/${USER_NAME}"
