@@ -109,12 +109,12 @@ RDEPEND="${DEPEND}
 	dev-vcs/git[curl,threads]
 	pam? ( virtual/pam )
 	ssl? ( net-misc/openssh )
-	mysql? ( virtual/mysql )
-	postgres? ( dev-db/postgresql[pam?,ssl?] )
-	sqlite? ( dev-db/sqlite:3 )
-	redis? ( dev-db/redis )
-	tidb? ( dev-db/tidb )
-	memcached? ( net-misc/memcached )"
+	virtual/mysql
+	dev-db/postgresql[pam?,ssl?]
+	dev-db/sqlite:3
+	dev-db/redis
+	dev-db/tidb
+	net-misc/memcached"
 
 USER_NAME="gogs"
 USER_DIR="/var/lib/${USER_NAME}"
