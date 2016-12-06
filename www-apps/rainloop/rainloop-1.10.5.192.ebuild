@@ -7,11 +7,10 @@ EAPI=6
 inherit webapp
 
 # Grab from http://repository.rainloop.net/v2/core.stable.json
-TAG="bfc3cc5897043f835c472d03647674b4"
 
 DESCRIPTION="Simple, modern and fast web-based email client"
 HOMEPAGE="http://www.rainloop.net"
-SRC_URI="http://repository.rainloop.net/v2/webmail/${PV%.*}/${P}-${TAG}.zip"
+SRC_URI="https://github.com/RainLoop/rainloop-webmail/releases/download/v${PV%}/${P}-${PV}.zip"
 LICENSE="AGPL-3"
 
 KEYWORDS="~amd64 ~x86"
