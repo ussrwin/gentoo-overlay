@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Rambox
+Name[ru]=Мультипротокольный чат-клиент
+GenericName=Multi-protocol messenger
+GenericName[ru]=Мультипротокольный чат-клиент
+Comment=Chat over IM.  Supports Skype, Rocket.Chat, Whatsapp, Facebook and many more
+Comment[ru]=Мультипротокольный чат-клиент.  Поддерживает Skype, Rocket.Chat, Whatsapp, Facebook и многие другие
+Exec=/opt/rambox/Rambox
+Icon=rambox
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;
