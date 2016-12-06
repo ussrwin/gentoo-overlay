@@ -10,7 +10,7 @@ inherit webapp
 
 DESCRIPTION="Simple, modern and fast web-based email client"
 HOMEPAGE="http://www.rainloop.net"
-SRC_URI="https://github.com/RainLoop/rainloop-webmail/releases/download/v${PV%}/${P}-${PV}.zip"
+SRC_URI="https://github.com/RainLoop/rainloop-webmail/releases/download/v${PV%}/${P}.zip"
 LICENSE="AGPL-3"
 
 KEYWORDS="~amd64 ~x86"
