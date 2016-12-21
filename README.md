@@ -55,10 +55,6 @@ Repository tree
     ├── net-im
     │   ├── poezio
     │   └── profanity
-    ├── net-misc
-    │   └── mps-youtube
-    ├── net-p2p
-    │   └── retroshare
     ├── x11-misc
     │   └── twmn
     └── x11-themes
