@@ -41,8 +41,6 @@ Repository tree
     │   └── clamtk
     ├── app-backup
     │   └── insync-bin
-    ├── app-editors
-    │   └── atom-bin
     ├── app-office
     │   └── litetran
     ├── dev-libs
