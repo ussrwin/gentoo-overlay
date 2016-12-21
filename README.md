@@ -61,8 +61,6 @@ Repository tree
     │   └── retroshare
     ├── x11-misc
     │   └── twmn
-    ├── x11-plugins
-    │   └── pidgin-window_merge
     └── x11-themes
         ├── menda-circle-icon-theme
         └── menda-themes
