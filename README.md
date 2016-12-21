@@ -46,9 +46,6 @@ Repository tree
     ├── dev-libs
     │   └── libmesode
     ├── dev-python
-    │   ├── aiodns
-    │   ├── pafy
-    │   ├── pycares
     │   └── slixmpp
     ├── games-fps
     │   ├── urbanterror
