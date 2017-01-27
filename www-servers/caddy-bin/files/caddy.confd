@@ -1,0 +1,11 @@
+NAME=caddy
+PIDFILE=/var/run/$NAME.pid
+LOGFILE=/var/log/$NAME/$NAME.log
+CONFIGFILE=/etc/caddy/Caddyfile
+CADDY_OPTIONS="-agree=true -pidfile=$PIDFILE -log=$LOGFILE -conf=$CONFIGFILE"
+
+# Set the CADDYPATH; Let's Encrypt certificates will be written to this directory.
+export CADDYPATH=/etc/caddy/ssl
+
+# Set the ulimits
+ulimit -n 8192
