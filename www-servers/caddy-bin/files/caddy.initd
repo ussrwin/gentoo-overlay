@@ -1,0 +1,30 @@
+#!/sbin/openrc-run
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+DAEMON=$(which caddy)
+USERBIND="setcap cap_net_bind_service=+ep"
+STOP_SCHEDULE="${STOP_SCHEDULE:-QUIT/5/TERM/5/KILL/5}"
+
+depend() {
+	use net
+	after dns
+}
+
+start() {
+	ebegin "Starting Caddy"
+	$USERBIND $DAEMON
+	start-stop-daemon --background --start --quiet \
+		--make-pidfile --pidfile $PIDFILE \
+		--user $NAME --exec $DAEMON \
+		-- $CADDY_OPTIONS
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping Caddy"
+	start-stop-daemon --stop --quiet --exec $DAEMON \
+	--retry=$STOP_SCHEDULE --pidfile $PIDFILE --name $NAME
+	eend $?
+}
