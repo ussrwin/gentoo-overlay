@@ -4,24 +4,21 @@
 
 EAPI=4
 
-EGIT_REPO_URI="git://github.com/boothj5/libmesode.git"
-
-inherit autotools eutils git-2
+inherit autotools eutils
 
 DESCRIPTION="Fork of libstrophe for use with Profanity XMPP Client"
 HOMEPAGE="https://github.com/boothj5/libmesode"
+SRC_URI="https://github.com/boothj5/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT GPL-3"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="doc"
 
 RDEPEND="dev-libs/expat
 		dev-libs/openssl"
 DEPEND="${RDEPEND}
 		doc? ( app-doc/doxygen )"
-
-S="${WORKDIR}/${P/-/_}"
 
 src_prepare() {
 		eautoreconf
@@ -36,6 +33,7 @@ src_compile() {
 
 src_install() {
 		einstall
-		dodoc LICENSE.txt README.markdown
+		dodoc GPL-LICENSE.txt LICENSE.txt MIT-LICENSE.txt README.markdown \
+			ChangeLog
 		use doc && dohtml -r docs/html/*
 }
