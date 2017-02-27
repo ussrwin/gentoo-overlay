@@ -42,6 +42,7 @@ Repository tree
     ├── app-backup
     │   └── insync-bin
     ├── app-editors
+    │   ├── brackets-bin
     │   └── lighttable-bin
     ├── app-office
     │   └── litetran
@@ -49,6 +50,8 @@ Repository tree
     │   └── libmesode
     ├── dev-python
     │   └── slixmpp
+    ├── dev-qt
+    │   └── qt5-styleplugins
     ├── games-fps
     │   ├── urbanterror
     │   └── urbanterror-maps
@@ -56,16 +59,27 @@ Repository tree
     │   └── urtconnector
     ├── mail-client
     │   └── wmail-bin
+    ├── media-sound
+    │   └── teamspeak-client-bin
+    ├── media-tv
+    │   └── popcorntime-bin
+    ├── media-video
+    │   └── gnome-twitch
     ├── net-im
+    │   ├── ghetto-skype
     │   ├── poezio
     │   ├── profanity
-    │   └── rambox-bin
+    │   ├── rambox-bin
+    │   └── riot-web-bin
+    ├── net-news
+    │   └── feedreader
     ├── www-apps
     │   ├── rainloop
     │   └── rainloop-community
     ├── www-servers
     │   └── caddy-bin
     ├── x11-misc
+    │   ├── sunflower
     │   └── twmn
     └── x11-themes
         ├── menda-circle-icon-theme
