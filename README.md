@@ -41,6 +41,8 @@ Repository tree
     │   └── clamtk
     ├── app-backup
     │   └── insync-bin
+    ├── app-editors
+    │   └── lighttable-bin
     ├── app-office
     │   └── litetran
     ├── dev-libs
@@ -52,6 +54,8 @@ Repository tree
     │   └── urbanterror-maps
     ├── games-util
     │   └── urtconnector
+    ├── mail-client
+    │   └── wmail-bin
     ├── net-im
     │   ├── poezio
     │   ├── profanity
