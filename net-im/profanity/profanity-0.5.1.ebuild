@@ -4,16 +4,13 @@
 
 EAPI=4
 
-EGIT_REPO_URI="git://github.com/boothj5/profanity.git"
-
-inherit autotools git-2
-
 DESCRIPTION="Ncurses based jabber client inspired by irssi"
 HOMEPAGE="http://www.profanity.im/"
+SRC_URI="http://www.profanity.im/${P}.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="gpg -gtk libnotify otr plugins +themes xscreensaver"
 
 RDEPEND=">=dev-libs/glib-2.26:2
@@ -30,14 +27,7 @@ RDEPEND=">=dev-libs/glib-2.26:2
 		plugins? ( dev-lang/python )
 		xscreensaver? ( x11-libs/libXScrnSaver )
 		libnotify? ( x11-libs/libnotify )"
-DEPEND="${RDEPEND}
-		sys-devel/autoconf-archive"
-
-S="${WORKDIR}/${P/-/_}"
-
-src_prepare() {
-		eautoreconf
-}
+DEPEND="${RDEPEND}"
 
 src_configure() {
 		econf \
