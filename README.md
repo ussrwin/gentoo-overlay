@@ -38,7 +38,7 @@ Repository ebuilds
 
 Category | Name | Description | Versions
 --- | --- | --- | ---
-app-antivirus | clamtk | A frontend for ClamAV using Gtk2-perl | 5.20 / 5.21
+app-antivirus | clamtk | A frontend for ClamAV using Gtk2-perl | 5.24
 app-backup | insync-bin | Advanced cross-platform Google Drive client | 1.3.14
 app-editors | brackets-bin | Open source code editor for web designers and front-end developers | 1.8
 app-editors | lighttable-bin | The next generation code editor | 0.8.1-r1
