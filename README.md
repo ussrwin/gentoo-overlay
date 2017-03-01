@@ -49,7 +49,7 @@ dev-qt | qt5-styleplugins | Additional style plugins for Qt | 9999
 games-fps | urbanterror-maps | Various maps for urban terror 4 | 20160214
 games-fps | urbanterror | Hollywood tactical shooter based on the ioquake3 engine | 4.2.023
 games-util | urtconnector | Advanced UrbanTerror launcher program | 9999
-mail-client | wmail-bin | The missing desktop client for Gmail & Google Inbox | 2.2.0
+mail-client | wmail-bin | The missing desktop client for Gmail & Google Inbox | 2.3.0
 media-sound | teamspeak-client-bin | TeamSpeak Client - Voice Communication Software | 3.1.1 / 3.1.1.1
 media-tv | popcorntime-bin | Watch Movies and TV Shows instantly | 0.3.10
 media-video | gnome-twitch | Enjoy Twitch on your GNU/Linux desktop | 0.3.1
