@@ -60,7 +60,7 @@ net-im | rambox-bin | Free and Open Source messaging and emailing app that combi
 net-im | riot-web-bin | A glossy Matrix collaboration client for the web | 0.9.7
 net-news | feedreader |  A modern desktop application designed to complement web-based RSS accounts| 2.0
 www-apps | rainloop-community | Simple, modern and fast web-based email client | 1.10.5.192 / 1.11.0.203
-www-apps | rainloop | Simple, modern and fast web-based email client | 1.10.5.192
+www-apps | rainloop | Simple, modern and fast web-based email client | 1.10.5.192 / 1.11.0.203
 www-servers | caddy-bin | Fast, cross-platform HTTP/2 web server with automatic HTTPS | 0.9.5
 x11-misc | sunflower | Small and highly customizable twin-panel file manager with plugin-support | 0.3.1-r1
 x11-misc | twmn | A notification system for tiling window managers | 9999
