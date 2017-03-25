@@ -40,7 +40,7 @@ Category | Name | Description | Versions
 --- | --- | --- | ---
 app-antivirus | clamtk | A frontend for ClamAV using Gtk2-perl | 5.24
 app-backup | insync-bin | Advanced cross-platform Google Drive client | 1.3.14
-app-editors | brackets-bin | Open source code editor for web designers and front-end developers | 1.8
+app-editors | brackets-bin | Open source code editor for web designers and front-end developers | 1.9
 app-editors | lighttable-bin | The next generation code editor | 0.8.1-r1
 app-office | litetran | Very simple GUI for text translation (like google translate) | 9999
 dev-libs | libmesode | Fork of libstrophe for use with Profanity XMPP Client | 0.9.1 / 9999
@@ -50,7 +50,7 @@ games-fps | urbanterror-maps | Various maps for urban terror 4 | 20160214
 games-fps | urbanterror | Hollywood tactical shooter based on the ioquake3 engine | 4.2.023
 games-util | urtconnector | Advanced UrbanTerror launcher program | 9999
 mail-client | wmail-bin | The missing desktop client for Gmail & Google Inbox | 2.3.0
-media-sound | teamspeak-client-bin | TeamSpeak Client - Voice Communication Software | 3.1.1 / 3.1.1.1
+media-sound | teamspeak-client-bin | TeamSpeak Client - Voice Communication Software | 3.1.2
 media-tv | popcorntime-bin | Watch Movies and TV Shows instantly | 0.3.10
 media-video | gnome-twitch | Enjoy Twitch on your GNU/Linux desktop | 0.3.1
 net-im | ghetto-skype | Free calls, text and picture sharing with anyone, anywhere | 1.5.0
@@ -59,7 +59,7 @@ net-im | profanity | Ncurses based jabber client inspired by irssi | 0.5.1 / 999
 net-im | rambox-bin | Free and Open Source messaging and emailing app that combines common web applications into one | 0.5.3
 net-im | riot-web-bin | A glossy Matrix collaboration client for the web | 0.9.7
 net-news | feedreader |  A modern desktop application designed to complement web-based RSS accounts| 2.0
-www-apps | rainloop-community | Simple, modern and fast web-based email client | 1.10.5.192
+www-apps | rainloop-community | Simple, modern and fast web-based email client | 1.10.5.192 / 1.11.0.203
 www-apps | rainloop | Simple, modern and fast web-based email client | 1.10.5.192
 www-servers | caddy-bin | Fast, cross-platform HTTP/2 web server with automatic HTTPS | 0.9.5
 x11-misc | sunflower | Small and highly customizable twin-panel file manager with plugin-support | 0.3.1-r1
